@@ -146,7 +146,7 @@ export function generateAllIcons(outputDir) {
   }
 
   const sourceIcon = path.join(outputDir, 'Icon.png');
-  const sizes = [16, 32, 48, 128];
+  const sizes = [16, 32, 48, 128, 512];
 
   if (fs.existsSync(sourceIcon)) {
     try {
